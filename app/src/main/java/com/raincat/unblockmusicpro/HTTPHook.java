@@ -127,7 +127,7 @@ public class HTTPHook implements IHookerDispatcher {
                                 } else if (versionCode >= 138) {
                                     String realCallClassString = "okhttp3.RealCall";
                                     sslSocketFactoryFieldString = "sslSocketFactory";
-                                    if (versionCode > 7001080) {
+                                    if (versionCode >  7001080) {
                                         realCallClassString = "okhttp3.internal.connection.RealCall";
                                         sslSocketFactoryFieldString = "sslSocketFactoryOrNull";
                                     }
